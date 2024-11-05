@@ -3,18 +3,18 @@ import emailjs from '@emailjs/browser';
 
 
 const Contact: React.FC = () => {
-    const form = useRef();
+    const form = useRef<HTMLFormElement>(null);
     const[modal,setModal]=useState(false);
 
     const toggleModal=()=>{
       setModal(!modal)
     }
     
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_mj7mol4', 'template_znimdxp', form.current, {
+      .sendForm('service_mj7mol4', 'template_znimdxp', form.current!, {
         publicKey: 'D0kJS0J7sijaoYi9O',
       })
       .then(
