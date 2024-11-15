@@ -7,11 +7,11 @@ const Home: React.FC = () => {
  
   return (
     // <section id="home" className="flex flex-col items-center text-center p-8 bg-gray-200" >
-    <section id="home" className="flex h-full  bg-gray-200 ">
+    <section id="home" className="flex h-full  bg-gray-200  dark:bg-gray-700">
       <div className="w-1/2 ml-10 mt-10">
-        <h1 className="text-4xl font-bold m-5 ">
+        <h1 className="text-4xl font-bold m-5 dark:text-white">
           Hey, I'm{" "}
-          <span className="text-red-600">
+          <span className="text-red-600 dark:text-yellow-400">
             <Typewriter
               loop
               cursor
@@ -26,7 +26,7 @@ const Home: React.FC = () => {
             />
           </span>
         </h1>
-        <p className=" ml-5 text-gray-600 ">
+        <p className=" ml-5 text-gray-600 dark:text-blue-50">
           MCA Postgraduate from NITW | Expert in HTML, CSS, JavaScript, React,
           Node.js, TypeScript & Tailwind CSS
         </p>

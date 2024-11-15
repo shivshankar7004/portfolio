@@ -4,16 +4,16 @@ import project2 from "../photo/pngwing.com.png";
 
 const Projects: React.FC = () => {
   return (
-    <section id="projects" className="p-8 ">
+    <section id="projects" className="p-8 dark:bg-slate-500 dark:text-white">
       <h2 className="text-3xl font-bold mb-4 p-5 text-center">Projects</h2>
      
 
-      <div className="flex bg-gray-50 shadow rounded p-4 m-4">
+      <div className="flex bg-gray-50 shadow rounded p-4 m-4 dark:bg-gray-700">
         
         <div className="w-1/2 p-4 place-items-center ">
           <h3 className="font-semibold mt-5">Portfolio</h3>
           <h4 className=" font-normal">( HTML, Css, JS, React.js, TailWind Css, TypeScript )</h4>
-          <ul className="list-disc m-5 text-gray-600">
+          <ul className="list-disc m-5 text-gray-600 dark:text-blue-50">
             <li>
             Developed a fully responsive portfolio website showcasing personal projects and skills using modern web
             technologies.
@@ -34,14 +34,14 @@ const Projects: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex bg-gray-50 shadow rounded p-4 m-4">
+      <div className="flex bg-gray-50 shadow rounded p-4 m-4 dark:bg-gray-700">
         <div className="w-1/2 p-4">
           <img src={project2} alt="Project" className="w-full h-auto" />
         </div>
         <div className="w-1/2 p-4 place-items-center  ">
           <h3 className="font-semibold mt-10">Quiz App</h3>
           <h4 className="">( HTML, Css, JS, TainWind Css, React.js )</h4>
-          <ul className="list-disc m-5 text-gray-600">
+          <ul className="list-disc m-5 text-gray-600 dark:text-blue-50">
             <li>
               Developed a responsive quiz app with real-time score tracking and
               feedback.

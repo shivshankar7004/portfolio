@@ -21,17 +21,17 @@ const Contact: React.FC = () => {
       )
       .then(
         () => {
-          console.log("SUCCESS!");
+          // console.log("SUCCESS!");
           toggleModal();
         },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
+        // (error) => {
+        //   console.log("FAILED...", error.text);
+        // }
       );
   };
 
   return (
-    <section id="contact" className="p-8 bg-gray-100">
+    <section id="contact" className="p-8 bg-gray-100 dark:bg-gray-700 dark:text-white">
       <div className="grid place-items-center">
         <h2 className="text-3xl font-bold mb-4">Contact</h2>
         <p className="m-4 text-center">
@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
           back to you as soon as possible
         </p>
       </div>
-      <div className="grid place-items-center p-7 w-auto">
+      <div className="grid place-items-center p-7 w-auto text-black">
         <form
           className="space-y-4 p-3 ms-10 w-96"
           ref={form}
@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
           />
           <textarea
             placeholder="Enter Your Message"
-            className="w-full p-2 border rounded"
+            className="w-full p-2 border rounded dark:text-black"
             name="message"
             required
           ></textarea>
