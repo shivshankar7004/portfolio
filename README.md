@@ -1,51 +1,68 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website showcasing my skills, projects, and experience as a software engineer. The website is built using HTML, CSS, JavaScript, React, Tailwind CSS, and TypeScript to create a clean, modern, and responsive design.
+## Features
 
-Currently, two official plugins are available:
+- **Home**: Introduction with a welcoming message and a brief overview of my skills and expertise.
+- **About**: Detailed information about my background, education, and technical skills.
+- **Projects**: Showcase of selected projects with descriptions, technologies used, and links to their GitHub repositories.
+- **Contact**: Links to my social media profiles and a way to get in touch with me.
+- **Dark Mode**: Allows users to switch between light and dark themes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+- HTML
+- CSS
+- JavaScript
+- React
+- TypeScript
+- Tailwind CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+To run this project locally:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+**1**. Clone the repository: 
+```bash
+  git clone https://github.com/shivshankar7004/portfolio.git
+
 ```
+**2**. Navigate to the project directory: 
+```bash
+  cd portfolio
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
-# portfolio
+**3**. Install the dependencies: 
+```bash
+  npm install
+
+```
+**4**.Start the development server:
+```bash
+  npm start
+
+```
+**5**. Open your browser and go to http://localhost:3000 to view the website.
+
+## Portfolio Section
+
+- **Introduction**: Brief intro with a photo, name, and a tagline.
+- **Technical Skills**: A list of technical skills grouped by languages, frameworks, tools, etc.
+- **Projects**: Highlighted projects with descriptions and links.
+- **Contact Information**: Links to social profiles and a way to reach me directly.
+## Screenshots
+
+![App Screenshot](./public/Screenshot_dark.png)
+![App Screenshot](./public/Screenshot_light.png)
+
+
+
+## License
+
+This project is open-source and available under the [MIT](https://choosealicense.com/licenses/mit/) License.
+
+
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out through the Contact section on the [website](https://shivshankar7004.github.io/portfolio/) or connect with me on [LinkedIn](https://www.linkedin.com/in/shivshankar-kumar-0755a11b0/).
