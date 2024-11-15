@@ -88,7 +88,7 @@ const About: React.FC = () => {
           <span className="bg-gray-200 p-2 rounded text-center text-gray-800  hover:bg-blue-500 hover:text-yellow-100">
             Time Management
           </span>
-          <span className="bg-gray-200 p-2 rounded text-center text-gray-80  hover:bg-blue-500 hover:text-yellow-100m">
+          <span className="bg-gray-200 p-2 rounded text-center text-gray-800  hover:bg-blue-500 hover:text-yellow-100">
             Leadership
           </span>
         </div>
