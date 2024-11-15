@@ -52,7 +52,12 @@ To run this project locally:
 - **Contact Information**: Links to social profiles and a way to reach me directly.
 ## Screenshots
 
+**Dark Mode**:
+
 ![App Screenshot](./public/Screenshot_dark.png)
+
+**Light Mode**:
+
 ![App Screenshot](./public/Screenshot_light.png)
 
 
